@@ -1,0 +1,231 @@
+/* font family ---- roboto */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gentium+Book+Plus:wght@400;700&family=Homenaje&family=Lato:ital,wght@0,400;1,300&family=Noto+Sans:ital,wght@0,100;0,500;0,600;1,100;1,500;1,600&family=Nunito:wght@300;400;600;700&family=Roboto:ital,wght@0,300;0,400;1,400;1,700&display=swap');
+
+/* ----------start basic css -------- */
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Roboto;
+    font-size: 16px;
+}
+
+/* ======root usage======== */
+
+
+.btn{
+    color: #000;
+    background-color: transparent;
+    padding: 7px 25px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: tomato;
+    border: 1px solid white;
+    transition: all 200ms ease-out;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+a{
+    list-style: none;
+}
+
+a:hover{
+    color: #000;
+}
+
+
+/* -----------Navbar --------------- */
+.nav-item .active{
+    background-color: rgb(255, 94, 126);
+    border: 1px solid crimson;
+    border-radius:8px;
+}
+.nav-item:hover{
+    background-color: rgb(250, 10, 58);
+    border: 1px solid crimson;
+    border-radius: 8px;
+}
+
+ul .nav-item a{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #000;
+    padding: 10px 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+/* -------- home ----------- */
+#home{
+    padding-top: 150px;
+    padding-bottom:30px;
+    background-color: #000;
+    height: 90vh;
+}
+ 
+.home-content{
+    position: relative;
+}
+
+.Htext-content h1{
+    color: rgb(0, 0, 0);
+    font-size: 3.2rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.Htext-content{
+    position:absolute;
+    top: 45%;
+    margin: 0 auto;
+    transform: translate(30%, -50%);
+    z-index:10;
+}
+
+
+/* ---------------- About CSS ------------------ */
+.about{
+    background-color: rgb(248, 247, 190);
+    padding: 70px 0;
+}
+.about .products-img img{
+   max-width:100%;
+   border-radius: 8px;
+}
+
+.products-details{
+    padding: 0 30px;
+}
+
+
+/* features products */
+.ribon{
+    position: absolute;
+    background-color: rgb(247, 12, 12);
+    color: aliceblue;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid red;
+    border-radius: 0px 5px;
+    padding: 5px 15px;
+    /* width: 17%; */
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.amount{
+    color: red;
+}
+
+del{
+    color: gray;
+}
+
+.star i{
+    color: rgba(250, 234, 8, 0.795);
+}
+
+.add-to-card{
+    color: #000;
+    background-color: transparent;
+    border: 1px solid red;
+    padding: 5px 15px;
+    margin-top: 12px;
+    transition: all 200ms ease-in-out;
+}
+
+.add-to-card:hover{
+    color: aliceblue;
+    background-color: red;
+    transition: all 200ms ease-in-out;
+}
+
+.card img{
+    height: 350px;
+    transition: transform .5s ease;
+}
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.features .collectionName{
+    font-size: 20px;
+    padding: 8px;
+    width: 25%;
+    background-color: rgb(216, 193, 193);
+    border: 1px solid rgb(156, 152, 152);
+    border-radius: 4px;
+}
+/* ----------------- Offer ------------------ */
+
+.offer{
+    padding: 70px 0;
+    background-color: rgb(186, 197, 248);
+}
+.counter li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 25px 15px;
+    font-weight: 500;
+    width: 15%;
+    text-align: center;
+}
+ 
+/* ----------- footer --------------- */
+.sub-footer .get-in{
+    width: 90%;
+    height: 300px;
+    margin: 60px auto;
+    border-radius: 8px;
+    background-image: url('../img/get.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: aliceblue;
+}
+
+.sub-footer .log-in{
+    position: absolute;
+    top: 20%; left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.footerColor{
+    padding: 50px 0px;
+    color: white;
+    background-color: rgb(126, 77, 77);
+}
+.footerColor a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.footerColor a:hover{
+    color: rgb(77, 76, 75);
+    font-size: 18px;
+}
+
+
+
+
+
+

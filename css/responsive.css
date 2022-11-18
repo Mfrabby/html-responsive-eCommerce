@@ -1,0 +1,47 @@
+@media only screen and (max-width: 750px){
+    .Htext-content h1{
+        font-size: 2.5rem;
+    }
+
+    .btn{
+        padding: 6px 22px;
+    }
+
+    .features .collectionName{
+        font-size: 18px;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 530px){
+    .Htext-content h1{
+        font-size: 2rem;
+    }
+
+    .btn{
+        padding: 5px 20px;
+    }
+
+    .features .collectionName{
+        font-size: 17px;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    body{
+        font-size: 12;
+    }
+
+    .Htext-content h1{
+        font-size: 1.5rem;
+    }
+
+    .btn{
+        padding: 5px 20px;
+    }
+
+    .features .collectionName{
+        font-size: 16px;
+        width: 50%;
+    }
+}
